@@ -230,7 +230,7 @@ class Crud extends Config
 
 
 	
-	public function addUser($value)
+	public function addUser($post)
 	{
 		$name = $this->cleanse($post['name']);
 		$email = $this->cleanse($post['email']);
